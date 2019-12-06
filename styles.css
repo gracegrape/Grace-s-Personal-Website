@@ -56,6 +56,10 @@ ul.mainContent {
     font-family: 'Times New Roman', Times, serif;
 }
 
+li {
+    list-style-type: none;
+}
+
 h1.myName {
     font-size: 50px;
 }
@@ -112,7 +116,24 @@ div.dividorImage {
     width: 10000px;
 }
 
-/* 2nd para */
+/* Experience */
+div.language-box {
+    background: white;
+    color: black;
+
+    display: inline-block;
+
+    border-radius: 10px;
+}
+
+.language-box li {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+/* Contact */
 
 
 img.center {
@@ -159,6 +180,11 @@ section.smaller-box {
 .contact-list {
     list-style-type: none;
     color: rgb(255, 255, 255);
+}
+
+.contact-list li {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .contact-list a {
