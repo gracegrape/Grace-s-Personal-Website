@@ -1,0 +1,186 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+/*The headers*/
+header {
+    background: black;
+    margin-top: 0px;
+}
+
+.header-buttons a {
+    text-decoration: none;
+    color: white;
+    margin-left: 0px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul.header-buttons li {
+    display: inline-block;
+    margin: 0 20px 0 0;
+    border-radius: 3px;
+    
+}
+
+/*The main body*/
+section.frontpage-design {
+    background: white;
+    padding: 10px;
+}
+
+div.box {
+    background: teal;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+    display: flex;
+}
+
+div.mainContent.left.content {
+    background: blue;
+}
+
+
+/* inside box */
+ul.mainContent {
+    /* background: red; */
+    list-style-type: none;
+    margin: auto;
+
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1.myName {
+    font-size: 50px;
+}
+
+/* left side */
+
+
+/* right side */
+
+li.right.photo {
+
+    height: 300px;
+    width: 300px;
+
+    background-image: url("images/gracephoto.png");
+    background-size: 300px;
+    background-color: white;
+    border-radius: 50%;
+
+    text-indent: -999999999px;
+}
+
+
+/* dividors */
+div.divsect {
+    /* padding: 50px; */
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+
+
+/*First para*/
+div.intro-div {
+    margin-top: 20px;
+
+}
+
+div.divsect h1 {
+    text-align: center;
+}
+
+div.dividorImage {
+    background-image: url("images/pageDivider.png");
+
+    background-repeat: no-repeat;
+
+    display: block;
+    margin: 0 auto;
+
+    height: 100px;
+    width: 10000px;
+}
+
+/* 2nd para */
+
+
+img.center {
+    display: block;
+    margin: 0 auto;
+}
+
+div.contact-div {
+    margin-bottom: 50px;
+    
+}
+
+/* contact block */
+section.smaller-box {
+    background: white;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+    color: black;
+    width: 100%;    
+
+}
+#wrapper {
+    display: flex;
+    
+  }
+  
+  #left {
+    flex: 0 0 25%;
+    background: rgba(255, 0, 0, 0.452);
+
+    color: aliceblue;
+    
+  }
+  
+  #right {
+    flex: 1;
+    background: rgb(36, 34, 34);
+
+    color: aliceblue;
+  }
+
+.contact-list {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+}
+
+.contact-list a {
+    color: aliceblue;
+}
+.contact-list a:hover {
+    color: rgb(89, 89, 212);
+}
+
+/* .one {
+    width: 15%;
+    height: 200px;
+    background: rgba(255, 0, 0, 0.452);
+    float: left;
+}
+.two {
+    margin-left: 15%;
+    height: 200px;
+    background: rgb(36, 34, 34);
+}
+
+
+.contact-list {
+    list-style-type: none;
+    color: rgb(255, 255, 255);
+} */
+
